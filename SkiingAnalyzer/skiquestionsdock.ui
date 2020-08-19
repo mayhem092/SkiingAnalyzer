@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SkiQuestionsDock</class>
+ <widget class="QDockWidget" name="SkiQuestionsDock">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>432</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Search fo results</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QTabWidget" name="u_tabs">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="Search">
+       <attribute name="title">
+        <string>Search</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QFormLayout" name="formLayout">
+             <property name="horizontalSpacing">
+              <number>6</number>
+             </property>
+             <property name="verticalSpacing">
+              <number>6</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>From year; To year</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>Competition type</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QComboBox" name="u_type">
+               <item>
+                <property name="text">
+                 <string>All types</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>50 km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>50 km freestyle</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>100km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>32km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>20km freestyle</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>32km freestyle</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>20km freestyle, juniors</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>42km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>42km freestyle</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>32km freestyle (2014)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>20km traditional (2014)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>30km traditional (2002-2005)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>44km traditional (2002)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>60km traditional (2003-2005)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>62km traditional (2006)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>25km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>32km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>35km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>45km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>52km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>53km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>75km traditional</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>30km freestyle</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>45km freestyle</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>53km freestyle</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>75km freestyle</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>Forename</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="u_firstName"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>Family name</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="u_lastName"/>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>Gender</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QWidget" name="widget" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <property name="spacing">
+                 <number>6</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QComboBox" name="u_fromYear">
+                  <property name="statusTip">
+                   <string>From year</string>
+                  </property>
+                  <property name="whatsThis">
+                   <string>From year</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="u_toYear">
+                  <property name="statusTip">
+                   <string>To year</string>
+                  </property>
+                  <property name="whatsThis">
+                   <string>To year</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QComboBox" name="u_gender">
+               <item>
+                <property name="text">
+                 <string>Both</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Male</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Female</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_6">
+               <property name="text">
+                <string>Team</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="u_team"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string>Nationality</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>Locality</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="u_locality"/>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>Placement (top)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="QComboBox" name="u_placement">
+               <item>
+                <property name="text">
+                 <string>All</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>5</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>10</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>25</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>50</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>100</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="9" column="0">
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>Time limit, From; To (h)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="1">
+              <widget class="QWidget" name="widget_2" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QComboBox" name="u_fromTime">
+                  <property name="whatsThis">
+                   <string>From time</string>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string>0</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>3</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>4</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>5</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>6</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>7</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>8</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>9</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="u_toTime">
+                  <property name="whatsThis">
+                   <string>To time</string>
+                  </property>
+                  <property name="currentText">
+                   <string>All</string>
+                  </property>
+                  <property name="currentIndex">
+                   <number>9</number>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string>1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>3</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>4</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>5</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>6</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>7</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>8</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>9</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>All</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="u_nationality"/>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QPushButton" name="u_searchButton">
+             <property name="text">
+              <string>Search</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="u_clearButton">
+             <property name="text">
+              <string>Clear search results</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Comparison">
+       <attribute name="title">
+        <string>Comparison</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>1st competition to be compered</string>
+          </property>
+          <layout class="QFormLayout" name="formLayout_3">
+           <property name="leftMargin">
+            <number>9</number>
+           </property>
+           <property name="topMargin">
+            <number>14</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>Type of the competition</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>Year of the competition</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="u_compareType">
+             <item>
+              <property name="text">
+               <string>50 km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>50 km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>100km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km freestyle, juniors</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>42km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>42km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km freestyle (2014)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km traditional (2014)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>30km traditional (2002-2005)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>44km traditional (2002)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>60km traditional (2003-2005)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>62km traditional (2006)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>25km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>35km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>45km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>52km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>53km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>75km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>30km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>45km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>53km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>75km freestyle</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="u_compareYear"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string>2nd competition to be compered</string>
+          </property>
+          <layout class="QFormLayout" name="formLayout_4">
+           <property name="topMargin">
+            <number>14</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>Type of the competition</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>Year of the competition</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="u_compareYear2"/>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="u_CompareType2">
+             <item>
+              <property name="text">
+               <string>50 km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>50 km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>100km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km freestyle, juniors</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>42km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>42km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km freestyle (2014)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km traditional (2014)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>30km traditional (2002-2005)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>44km traditional (2002)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>60km traditional (2003-2005)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>62km traditional (2006)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>25km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>35km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>45km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>52km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>53km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>75km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>30km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>45km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>53km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>75km freestyle</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_4">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QPushButton" name="u_compareButton">
+             <property name="text">
+              <string>Compare</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Times">
+       <attribute name="title">
+        <string>Time development</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QFormLayout" name="formLayout_2">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>From year</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="u_timesFYear"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_19">
+             <property name="text">
+              <string>To year</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_20">
+             <property name="text">
+              <string>Forename</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="u_timesTYear"/>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="u_timesForename"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_21">
+             <property name="text">
+              <string>Family name</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="u_timesLastname"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_5">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QPushButton" name="u_getTimes">
+             <property name="text">
+              <string>Get times</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Best">
+       <attribute name="title">
+        <string>Best athlete</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QFrame" name="frame_6">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QFormLayout" name="formLayout_5">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_16">
+             <property name="text">
+              <string>From year</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="u_bestFYear"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_22">
+             <property name="text">
+              <string>To year</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="u_bestTYear"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_23">
+             <property name="text">
+              <string>Gender</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QComboBox" name="u_bestGender">
+             <item>
+              <property name="text">
+               <string>Male</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Female</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>357</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_7">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <item>
+            <widget class="QPushButton" name="u_getBest">
+             <property name="text">
+              <string>Get best placement</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="u_clearBest">
+             <property name="text">
+              <string>Clear best placements</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Countries">
+       <attribute name="title">
+        <string>Nationality distribution</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QFrame" name="frame_8">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QFormLayout" name="formLayout_6">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_17">
+             <property name="text">
+              <string>Specify a year</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="u_countriesYear"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>409</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_9">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <widget class="QPushButton" name="u_getDistribution">
+             <property name="text">
+              <string>Get distribution</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Teams">
+       <attribute name="title">
+        <string>Top 10 teams</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QFrame" name="frame_10">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QFormLayout" name="formLayout_7">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_18">
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="u_teamsYear"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_24">
+             <property name="text">
+              <string>Type of competition</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="u_teamsType">
+             <item>
+              <property name="text">
+               <string>50 km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>50 km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>100km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km freestyle, juniors</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>42km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>42km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km freestyle (2014)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km traditional (2014)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>30km traditional (2002-2005)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>44km traditional (2002)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>60km traditional (2003-2005)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>62km traditional (2006)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>25km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>35km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>45km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>52km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>53km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>75km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>30km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>45km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>53km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>75km freestyle</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>383</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_11">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <item>
+            <widget class="QPushButton" name="u_getTeams">
+             <property name="text">
+              <string>Get teams</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="u_clearTeams">
+             <property name="text">
+              <string>Clear teams</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Prediction</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QLabel" name="label_25">
+          <property name="text">
+           <string>Get predictions for the next year!</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::PlainText</enum>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_3" native="true">
+          <layout class="QFormLayout" name="formLayout_8">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_26">
+             <property name="text">
+              <string>Competition type       </string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="u_predictionType">
+             <item>
+              <property name="text">
+               <string>50 km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>50 km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>100km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km freestyle, juniors</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>42km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>42km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km freestyle (2014)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>20km traditional (2014)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>30km traditional (2002-2005)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>44km traditional (2002)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>60km traditional (2003-2005)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>62km traditional (2006)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>25km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>32km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>35km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>45km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>52km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>53km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>75km traditional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>30km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>45km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>53km freestyle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>75km freestyle</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_7">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="u_getPredictions">
+          <property name="text">
+           <string>Get Predictions</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

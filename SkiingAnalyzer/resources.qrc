@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>newlogo.png</file>
+        <file>closelogo.png</file>
+        <file>questionlogo.png</file>
+        <file>refreshlogo.png</file>
+        <file>floppy.png</file>
+    </qresource>
+</RCC>
